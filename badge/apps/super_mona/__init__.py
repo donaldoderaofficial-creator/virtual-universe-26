@@ -50,8 +50,8 @@ def read_controls():
     c.right = down(BUTTON_RIGHT)
     c.up = down(BUTTON_UP)
     c.down = down(BUTTON_DOWN)
-    c.jump_pressed = badge.pressed(BUTTON_SELECT)
-    c.jump = down(BUTTON_SELECT)
+    c.jump_pressed = badge.pressed(BUTTON_SELECT) or badge.pressed(BUTTON_UP)
+    c.jump = down(BUTTON_SELECT) or c.up
     c.run = down(BUTTON_BACK)
     return c
 

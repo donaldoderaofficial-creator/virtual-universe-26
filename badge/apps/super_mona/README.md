@@ -37,7 +37,7 @@ The capacitive pads follow a Game Boy-style layout.
 
 | Pad | Action |
 | --- | --- |
-| D-pad | Move Mona (Down crouches when big) |
+| D-pad | Left/Right move Mona; Up jumps; Down crouches when big |
 | Select (A) | Jump — hold for a higher jump |
 | Back (B) | Run; hold to pick up a shell, release to throw it |
 | Menu (Start) | Pause |
